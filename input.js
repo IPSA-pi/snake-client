@@ -14,7 +14,6 @@ const handleUserInput = function(key) {
     case 's': connection.write(MD); break;
     case 'd': connection.write(MR); break;
     case 'm':
-      // console.log(m[Math.floor(Math.random() * m.length)].toUpperCase());
       connection.write(`Say: ${messages[Math.floor(Math.random() * messages.length)].toUpperCase()}`);
       break;
   }
