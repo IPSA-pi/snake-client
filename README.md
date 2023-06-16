@@ -56,7 +56,19 @@ click on this [link](https://www.google.com/search?q=img_20230614&tbm=isch&ved=2
   ***<https://efectotv.net>*** (you can emphasize links too)
 
 
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
 
+## TCP
+
+One important property of TCP is that it guarantees that messages will arrive in the order that they were sent. It prevents out-of-order delivery of data.
 
 
 
