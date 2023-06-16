@@ -1,6 +1,7 @@
 const net = require('net');
 
 const connect = function() {
+  // the conn object will be used to handle messages from the server
   const conn = net.createConnection({
     host: 'localhost',
     port: '50541',
@@ -14,6 +15,10 @@ const connect = function() {
     console.log('Successfully connected to game server');
     conn.write('Name: IAN');
   });
+
+  // setInterval(() => {
+  //   conn.write('Move: up');
+  // }, 50);
 
   conn.setEncoding('utf8');
 
