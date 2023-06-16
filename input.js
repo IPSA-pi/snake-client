@@ -1,4 +1,6 @@
 /* eslint-disable max-len */
+const {MU, ML, MD, MR, messages} = require('./constants');
+
 let connection;
 
 const handleUserInput = function(key) {
@@ -7,14 +9,13 @@ const handleUserInput = function(key) {
   }
 
   switch (key) {
-    case 'w': connection.write('Move: up'); break;
-    case 'a': connection.write('Move: left'); break;
-    case 's': connection.write('Move: down'); break;
-    case 'd': connection.write('Move: right'); break;
+    case 'w': connection.write(MU); break;
+    case 'a': connection.write(ML); break;
+    case 's': connection.write(MD); break;
+    case 'd': connection.write(MR); break;
     case 'm':
-      const m = ['dough', 'zort!', 'troz!', 'yeah!'];
       // console.log(m[Math.floor(Math.random() * m.length)].toUpperCase());
-      connection.write(`Say: ${m[Math.floor(Math.random() * m.length)].toUpperCase()}`);
+      connection.write(`Say: ${messages[Math.floor(Math.random() * messages.length)].toUpperCase()}`);
       break;
   }
 };
