@@ -4,7 +4,7 @@ const connect = function() {
   // the conn object will be used to handle messages from the server
   const conn = net.createConnection({
     host: 'localhost',
-    port: '50541',
+    port: 50541,
   });
 
   conn.on('data', (data) => {
