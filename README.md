@@ -18,18 +18,17 @@ Before you can run this client, you will need to be running the server side whic
 - Run the development snake client using the `node play.js` command.
 - On another terminal from within the "snek-multiplayer" directory run `npm run play`
 
-## **Game-play**
-
-- Use w, s, a, d, keys on your keyboard to move the snake around
-- Use the m key to make your snake speak like Pinky, from the epic cartoon Pinky and The Brain.
-
-!["Pinky"](./media/Pinky_official_art.webp)
-
-
-
-## **Tips (for Windows users)**
+## **Tips (for Windows users) 😉🏠**
 
 - On windows Terminal you can right-click on the tab you are on and then select 'Split Tab', that way you can have the Server and the Client nicely sitting next to each other (as seen in the screenshots). 
 - You can also use the `Alt + arrowKey` to switch focus between split tabs. 
 - I mapped the key combination `Ctrl + Alt + arrowKey-down` to split the tab I'm working on.
 - To close a split tab, focus it and use `Ctrl + Shift + W`.
+
+## **Game-play**
+
+- Use w, s, a, d, keys on your keyboard to move the snake around
+- Use the 'm' key to make your snake speak like Pinky, from the epic cartoon Pinky and The Brain.
+
+!["Pinky"](./media/Pinky_official_art.webp)
+!["Viper"](./media/viper.jpg)
